@@ -32,7 +32,7 @@ spec:
   gitOpsRef:
     kind: FluxConfig
     name: eksa-test
-  kubernetesVersion: "1.25"
+  kubernetesVersion: "1.26"
   machineHealthCheck:
     nodeStartupTimeout: 10m0s
     unhealthyMachineTimeout: 5m0s
@@ -75,7 +75,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-25-eks-28-redhat
+    name: kubernetes-1-26-eks-24-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -92,7 +92,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-25-eks-28-redhat
+    name: kubernetes-1-26-eks-24-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
@@ -111,7 +111,7 @@ spec:
   computeOffering:
     name: Large Instance
   template:
-    name: kubernetes-1-25-eks-28-redhat
+    name: kubernetes-1-26-eks-24-redhat
   users:
   - name: capc
     sshAuthorizedKeys:
